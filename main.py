@@ -30,11 +30,11 @@ async def start(message: Message):
 
 @dp.message(F.text == "👩 Обо мне")
 async def about(message: Message):
-    await message.answer("Меня зовут Молли. Здесь ты можешь узнать обо мне.")
+    await message.answer("Меня зовут Молли. Мне 21 и я маск гиол деп шайсан.")
 
 @dp.message(F.text == "📖 Моя история")
 async def story(message: Message):
-    await message.answer("Здесь будет моя история.")
+    await message.answer("я с актау учусь.")
 
 @dp.message(F.text == "💚 Помощь")
 async def help_cmd(message: Message):
@@ -42,7 +42,7 @@ async def help_cmd(message: Message):
 
 @dp.message(F.text == "📩 Контакты")
 async def contacts(message: Message):
-    await message.answer("Здесь будут мои контакты.")
+    await message.answer("87774491805 @moliyahd.")
 
 async def main():
     await dp.start_polling(bot)
